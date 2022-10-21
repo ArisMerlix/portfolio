@@ -74,8 +74,7 @@ main,.lmf_menu{
   line-height: 75%;
 }
 .engineer{
-  font-family: 'arial_rounded';
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.25);
 }
 @media (min-height:900px) {
