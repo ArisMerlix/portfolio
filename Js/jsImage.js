@@ -13,6 +13,10 @@ function clone_append(list_,node_){
   }
 }
 
+var ai_img=new My_Image('images/ai.png', "logo_project")
+var aiClasses=document.querySelectorAll('._withaiimg');
+clone_append(aiClasses, ai_img)
+
 var python_img=new My_Image('images/py.png', "logo_project");
 var pythonClasses=document.getElementsByClassName('_withpythonimg');
 clone_append(pythonClasses, python_img)
@@ -25,6 +29,8 @@ var git_img=new My_Image('images/Git.png', "logo_project")
 var ps_img=new My_Image('images/ps.png', "logo_project")
 
 window.addEventListener("load", () => {
+
+  // Professional experiences
   var proClasses=document.querySelectorAll('#pro > a');
 
   ps_img_=ps_img.img.cloneNode();
@@ -33,8 +39,8 @@ window.addEventListener("load", () => {
   ps_img_=ps_img.img.cloneNode();
   proClasses[1].appendChild(ps_img_);
 
-  p_img_=python_img.img.cloneNode();
-  proClasses[2].appendChild(p_img_);
+  py_img_=python_img.img.cloneNode();
+  proClasses[2].appendChild(py_img_);
 
   s_img_=spring_img.img.cloneNode();
   s_img_.style.marginLeft="5px"
