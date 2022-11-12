@@ -25,6 +25,10 @@ var spring_img=new My_Image('images/spring.png', "logo_project")
 var springClasses=document.querySelectorAll('._withspringimg');
 clone_append(springClasses, spring_img)
 
+var docker_img=new My_Image('images/docker-logo.png', "logo_project")
+var dockerClasses=document.querySelectorAll('._withdockerimg');
+clone_append(dockerClasses, docker_img)
+
 var git_img=new My_Image('images/Git.png', "logo_project")
 var ps_img=new My_Image('images/ps.png', "logo_project")
 
