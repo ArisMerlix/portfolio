@@ -37,17 +37,18 @@ window.addEventListener("load", () => {
   // Professional experiences
   var proClasses=document.querySelectorAll('#pro > a');
 
+  //1
   ps_img_=ps_img.img.cloneNode();
   proClasses[0].appendChild(ps_img_);
-
+  //2
   ps_img_=ps_img.img.cloneNode();
   proClasses[1].appendChild(ps_img_);
-
+  //3
   py_img_=python_img.img.cloneNode();
   proClasses[2].appendChild(py_img_);
-
+  //4
   s_img_=spring_img.img.cloneNode();
-  s_img_.style.marginLeft="5px"
+  s_img_.classList.add("mg-left");
   g_img_=git_img.img.cloneNode();
   proClasses[3].append(s_img_, g_img_);
 
