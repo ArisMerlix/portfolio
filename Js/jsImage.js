@@ -29,6 +29,10 @@ var docker_img=new My_Image('images/docker-logo.png', "logo_project")
 var dockerClasses=document.querySelectorAll('._withdockerimg');
 clone_append(dockerClasses, docker_img)
 
+var spark_img=new My_Image('images/Spark.png', "logo_project")
+var sparkClasses=document.querySelectorAll('._withsparkimg');
+clone_append(sparkClasses, spark_img)
+
 var git_img=new My_Image('images/Git.png', "logo_project")
 var ps_img=new My_Image('images/ps.png', "logo_project")
 
