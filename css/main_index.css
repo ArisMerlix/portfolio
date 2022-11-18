@@ -35,9 +35,13 @@ main{
   width: 100%;
   height: 0px;
 }
+
 @media (orientation: landscape),(min-width:1000px) {
   .download_cv > *{
     width: 40%;
+  }
+  .my_picture{
+    height: 80vh;
   }
 }
 
@@ -49,8 +53,13 @@ main{
     width: 90%;
     font-size: 1rem;
   }
+  .my_picture{
+    width: 100%;
+  }
 }
-
+.my_picture{
+  float: right;
+}
 .article_main{
   width: 100%;
   padding: 1rem;
@@ -121,10 +130,8 @@ main{
   font-weight: bold;
   font-size: 1.25rem;
 }
-#provided_by{
-  font-size: 1rem;
-}
-.date_project, .info_project, .state_project{
+
+.date_project{
   font-size: 1rem;
   height: 2.5rem;
   display: flex;
@@ -132,26 +139,11 @@ main{
   left:0;
   bottom: 0;
 }
-.date_project, .state_project{
-  clear:both;
-}
-.date_project, .info_project, .state_project{
+.date_project{
+  color: black;
   float: left;
 }
-.date_project, .writing, .pending{
-  color: black;
-}
-.code{
-  padding-left:2rem;
-  color: green;
-}
-.pending{
-  padding-left:2rem;
-  color: rgb(120, 40, 120);
-}
-.code:hover{
-  color: black;
-}
+
 .logo_project{
   height: 2.5rem;
   display: inline-block;
@@ -172,7 +164,7 @@ main{
   .text_project2, #provided_by, #have_idea{
     font-size: 0.8rem !important;
   }
-  .date_project,.info_project,.state_project{
+  .date_project{
     font-size: 0.75rem;
     height: 1.5rem;
   }
@@ -182,7 +174,7 @@ main{
   .one_project0{
     width: 90%;
   }
-  .one_content{
+  .one_content, #about_me{
     font-size: 1rem;
   }
 }
@@ -190,8 +182,13 @@ main{
   margin: 1rem 0;
   border-radius: 5px;
 }
-
-
+#about_me{
+  background-color: rgb(255,255,255,0.9) ;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
 .contact_me{
   width: 100%;
   display:flex;
