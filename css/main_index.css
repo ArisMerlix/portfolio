@@ -161,8 +161,9 @@ main{
   .text_project{
     font-size: 1rem;
   }
-  .text_project2, #provided_by, #have_idea{
+  .text_project2{
     font-size: 0.8rem !important;
+    font-weight: normal;
   }
   .date_project{
     font-size: 0.75rem;
