@@ -11,7 +11,6 @@
 section ul li{
   padding: 5px 2%;
   list-style: none;
-  font-size: 1.75rem;
   background-color: rgb(255,255,255,0.075);
 }
 .active-li{
@@ -23,7 +22,11 @@ section ul li{
 .active-li a{
   color: rgb(255,255,255);
 }
-
+@media (min-width:550px) {
+  section ul li{
+    font-size: 1.75rem;
+  }
+}
 @media (max-width:550px) {
   section ul li{
     font-size: 1.2rem;
@@ -38,7 +41,6 @@ section ul li{
 #switch_box ul li a:hover{
   color: rgb(255,255,255,0.9);
 }
-
 section ul li a{
   text-decoration: none;
   background: transparent;
@@ -61,27 +63,27 @@ section ul li a{
   padding: 1rem;
   text-align-last: left;
 }
-
 .inactive-content{
   display: none;
 }
-.content_img{
-  width: 50%;
-  float:right;
-  margin-left: 1rem;
-}
-
 .slogan{
   width: 100%;
   text-align: center;
   text-align-last: center;
 }
-
+.content_img{
+  float:right;
+}
+@media (min-width:900px) {
+  .content_img{
+    width: 50%;
+    margin-left: 1rem;
+  }
+}
 @media (max-width:900px) {
   .content_img{
     width: 100%;
     margin-left: 0;
     margin-bottom: 1rem;
   }
-  /* Content size in main css*/
 }

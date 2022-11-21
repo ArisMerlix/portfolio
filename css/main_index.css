@@ -57,9 +57,9 @@ main{
     width: 100%;
   }
 }
-.my_picture{
-  float: right;
-}
+
+
+
 .article_main{
   width: 100%;
   padding: 1rem;
@@ -69,6 +69,7 @@ main{
 .article_text{
   font-size: 1.25rem;
 }
+
 .all_projects,.all_projects0{
   width: 100%;
   display:flex;
@@ -85,8 +86,8 @@ main{
   flex-direction: row;
   column-gap: 4%;
 }
+
 .all_projects_title{
-  font-size: 1.5rem;
   width: 100%;
   text-align: center;
 }
@@ -101,8 +102,6 @@ main{
   transition: all 0.4s;
 }
 .one_project0{
-  width: 43%;
-
   border-left: 0 solid orange;
   transition: border-left 300ms ease-in-out;
 }
@@ -123,17 +122,13 @@ main{
 }
 .text_project{
   color: black;
-  font-size: 1.5rem;
 }
 .text_project2{
   color: rgb(104, 0, 88);
   font-weight: bold;
-  font-size: 1.25rem;
 }
 
 .date_project{
-  font-size: 1rem;
-  height: 2.5rem;
   display: flex;
   align-items: flex-end;
   left:0;
@@ -145,15 +140,35 @@ main{
 }
 
 .logo_project{
-  height: 2.5rem;
   display: inline-block;
   float: right;
   right:0;
 }
-#have_idea{
-  width: 100%;
-  text-align: center;
+
+@media (min-width:750px) {
+  .all_projects_title{
+    font-size: 1.5rem;
+  }
+  .text_project{
+    font-size: 1.5rem;
+  }
+  .text_project2{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .date_project{
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+  .logo_project{
+    height: 2.5rem;
+  }
+  .one_project0{
+    width: 43%;
+  }
 }
+
+
 @media (max-width:750px) {
   .all_projects_title{
     font-size: 1.25rem;
