@@ -74,7 +74,7 @@ main,.lmf_menu{
 }
 .engineer{
   font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.5);
 }
 @media (min-height:900px) {
   .aris_merlix{
