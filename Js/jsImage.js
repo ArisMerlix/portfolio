@@ -35,6 +35,9 @@ clone_append(sparkClasses, spark_img)
 
 var git_img=new My_Image('images/Git.png', "logo_project")
 var ps_img=new My_Image('images/ps.png', "logo_project")
+var ampl_img=new My_Image('images/amplitude.png', "logo_project")
+var angular_img=new My_Image('images/angular.png', "logo_project")
+var uml_img=new My_Image('images/Uml.webp', "logo_project")
 
 window.addEventListener("load", () => {
 
@@ -55,6 +58,17 @@ window.addEventListener("load", () => {
   s_img_.classList.add("mg-left");
   g_img_=git_img.img.cloneNode();
   proClasses[3].append(s_img_, g_img_);
+  //5
+  s_img_2=spring_img.img.cloneNode();
+  s_img_2.classList.add("mg-left");
+  ampl_img_=ampl_img.img.cloneNode();
+  ampl_img_.classList.add("mg-left");
+  angular_img_=angular_img.img.cloneNode();
+  angular_img_.classList.add("mg-left");
+  uml_img_=uml_img.img.cloneNode();
+  uml_img_.classList.add("mg-left");
+  ampl_img_=ampl_img.img.cloneNode();
+  proClasses[4].append(s_img_2,angular_img_,uml_img_,ampl_img_);
 
   var api_img=new My_Image('images/api.png', "content_img");
   var apiId=document.getElementById('data');
