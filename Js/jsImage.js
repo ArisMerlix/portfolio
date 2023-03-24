@@ -65,9 +65,9 @@ window.addEventListener("load", () => {
   ampl_img_.classList.add("mg-left");
   // angular_img_=angular_img.img.cloneNode();
   // angular_img_.classList.add("mg-left");
-  uml_img_=uml_img.img.cloneNode();
-  uml_img_.classList.add("mg-left");
-  proClasses[4].append(s_img_2,uml_img_,ampl_img_);
+  // uml_img_=uml_img.img.cloneNode();
+  // uml_img_.classList.add("mg-left");
+  proClasses[4].append(s_img_2,ampl_img_);
 
   var api_img=new My_Image('images/api.png', "content_img");
   var apiId=document.getElementById('data');
