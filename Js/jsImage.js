@@ -57,7 +57,9 @@ window.addEventListener("load", () => {
   s_img_=spring_img.img.cloneNode();
   s_img_.classList.add("mg-left");
   g_img_=git_img.img.cloneNode();
-  proClasses[3].append(s_img_, g_img_);
+  uml_img_=uml_img.img.cloneNode();
+  uml_img_.classList.add("mg-left");
+  proClasses[3].append(s_img_,uml_img_, g_img_);
   //5
   s_img_2=spring_img.img.cloneNode();
   s_img_2.classList.add("mg-left");
@@ -65,9 +67,9 @@ window.addEventListener("load", () => {
   ampl_img_.classList.add("mg-left");
   // angular_img_=angular_img.img.cloneNode();
   // angular_img_.classList.add("mg-left");
-  // uml_img_=uml_img.img.cloneNode();
-  // uml_img_.classList.add("mg-left");
-  proClasses[4].append(s_img_2,ampl_img_);
+  uml_img_2=uml_img.img.cloneNode();
+  uml_img_2.classList.add("mg-left");
+  proClasses[4].append(s_img_2,uml_img_2,ampl_img_);
 
   var api_img=new My_Image('images/api.png', "content_img");
   var apiId=document.getElementById('data');
